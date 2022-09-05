@@ -5,24 +5,183 @@ body {
     
 }
 
+/* header css*/
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    color: white;
-    gap: 25px;
+    color: #F9FAF8;
     align-items: center;
-    font-size: 15px;
-    padding: 45px 15%;
+    font-size: 18px;
+    padding: 45px 9%;
 }
 
 .link {
     display: flex;
-    gap: 15px;
+    gap: 45px;
 }
 
 .headerlogo {
-    font-weight: 700;
-    font-size: 26px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    gap: 17px;
 
 }
+
+.logotext {
+    align-items: center;
+}
+
+.bull {
+    width: auto;
+    height: 50px;
+}
+
+/* end of header css*/
+
+/* upper container*/
+.upperContainer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+    padding: 90px 22%;
+    gap: 30px;
+    
+}
+
+.upper-left {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    width: 150px;
+}
+
+.upper-right {
+ flex: 1;
+ width: 300px;
+ height: 200px;
+}
+
+img {
+    height: 170px;
+    width: 480px;
+    border-radius: 15px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8
+}
+
+.headerbutton {
+    max-width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 0px;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 17px;
+}
+
+/* end of upper container*/
+
+/* info container*/
+
+/** {
+    border: 2px solid red;
+}*/
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 90px 22%;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.borderbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding: 50px 18%;
+    padding-bottom: 180px;
+}
+
+.text-underbox {
+    text-align: center;
+}
+
+.img{
+    border: 4px solid #3882F6;
+    border-radius: 18px;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+}
+
+.box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+/* end of info container*/
+
+
+/* inspiration container*/
+.inspirationContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 90px 22%;
+    gap: 30px;
+}
+
+.inspiration {
+    font-size: 25px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+
+}
+
+
+
+/* end of inspiration caontainer */
+
+/* sponsor container */
+
+/* end of sponsor container */
+
+
+/* footer container */
+
+/* end of footer container */
+
+
